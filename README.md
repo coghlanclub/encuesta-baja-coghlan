@@ -1,1 +1,0 @@
-# encuesta-baja-coghlan
