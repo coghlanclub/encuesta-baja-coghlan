@@ -1,3 +1,8 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <title>Encuesta de baja</title>
 <style>
 /* Un cuestionario corto, cálido y de paso a paso — como una charla breve
@@ -50,6 +55,7 @@
 }
 
 *{box-sizing:border-box;}
+html{min-height:100%;}
 body{
   background:var(--bg);
   color:var(--text);
@@ -151,7 +157,8 @@ textarea{min-height:92px;resize:vertical;}
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
-
+</head>
+<body>
 <div class="wrap">
 
   <div id="surveyView">
@@ -434,3 +441,5 @@ document.querySelectorAll('#finalStarRow .star').forEach(star=>{
 
 renderStep();
 </script>
+</body>
+</html>
